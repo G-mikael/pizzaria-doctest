@@ -14,18 +14,27 @@ def cadastrar_ingrediente(tipo: str, ingrediente: str, preco: float, dataframe)
     '''
 
 # Montar pizza e calcular valor
-def montar_pizza():
+def montar_pizza(dataframe):
   '''
     A função vai receber os tipos de ingredientes que serão cadastrados e irá gerar o sabor e o cálculo do valor num dataframe.
-    tipo = str
-    tipo type: str
-    param ingrediente: dataframe
-    param preco: preco do ingrediente que será calculado
-    preco type: float
     param dataframe: dataframe com a lista de ingredientes
-    Returns
-    Sabores de Pizza e Preço
+    return : Sabores de Pizza e Preço
     '''
 
+def remover_ingrediente(ingrediente: str, dataframe):
+    '''
+    A função irá remover um ingrediente adicionado que não agrada o usuário.
+    :param ingrediente: ingrediente a ser adicionado na lista
+    :ingredientes type: str
+    :param dataframe: dataframe com a lista de ingredientes
+    :dataframe type: Pandas.dataframe
+    :return: Linha a mais do dataframe
+    '''
 
-    
+def listar_ingrediente(dataframe):
+    '''
+    A função irá receber a lista de ingredientes que serão selecionadas pelo usuário.
+    :param dataframe: dataframe com a lista de ingredientes
+    :dataframe type: Pandas.dataframe
+    :return: Linha a mais do dataframe
+    '''

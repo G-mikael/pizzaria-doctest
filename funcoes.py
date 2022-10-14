@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def cadastrar_ingrediente(tipo: str, ingrediente: str, preco: float, dataframe)
+def cadastrar_ingrediente(tipo: str, ingrediente: str, preco: float, dataframe):
     '''A função irá receber um tipo, um ingrediente, um preço, e irá gerar
     uma nova linha em um dataframe previamente estabelecido.
 
@@ -17,7 +17,7 @@ def cadastrar_ingrediente(tipo: str, ingrediente: str, preco: float, dataframe)
     :r type: Pandas.dataframe
     '''
     novo_ingrediente = dataframe.loc[tipo] = [ingrediente, preco]
-    return dataframe
+    return novo_ingrediente
 
 def montar_pizza(dataframe):
     '''

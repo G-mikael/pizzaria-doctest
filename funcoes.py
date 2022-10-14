@@ -16,8 +16,8 @@ def cadastrar_ingrediente(tipo: str, ingrediente: str, preco: float, dataframe):
     :return: Linha a mais do dataframe
     :r type: Pandas.dataframe
     '''
-    novo_ingrediente = dataframe.loc[tipo] = [ingrediente, preco]
-    return novo_ingrediente
+    dataframe.loc[tipo] = [ingrediente, preco]
+    return dataframe
 
 def montar_pizza(dataframe):
     '''
